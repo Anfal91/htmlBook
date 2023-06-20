@@ -1,20 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
 
 </head>
+<style>
+    .w3-modal-content{
+        height: 400px;
+    width: 200px !important;
+    margin: auto;
+    }
+    h1 {
+        font-size: 30px !important;
+    }
+
+    h2 {
+        font-size: 18px !important;
+    }
+
+    h3 {
+        font-size: 16px !important;
+        margin-left: 3px;
+    }
+
+    h4 {
+        font-size: 13px !important;
+        margin-left: 6px;
+    }
+
+    h5 {
+        font-size: 11px !important;
+        margin-left: 8px;
+    }
+
+    h6 {
+        font-size: 10px !important;
+        margin-left: 10px;
+    }
+</style>
+
 <body>
     <div class="book container">
         <input type="checkbox" id="c1">
         <input type="checkbox" id="c2">
         <input type="checkbox" id="c3">
-        
+
         <div class="flip-book mx-auto">
             <div class="flip" id="p1">
                 <div class="back">
@@ -22,45 +61,168 @@
                     <label class="back-btn" for="c1">Back</label>
                 </div>
                 <div class="front">
-                    
-        <h3>OWNER APP :-</h3>
 
-        <strong style="font-size: 13px;">
-        1. Owner can opt for android or ios version of Owner app (link for owner app would be provided in SMS and E-MAIL
-        received on registration).<br>
-        2. On owner app “OTP” based login and “FORGOT PASSWORD” option is provided to safeguard it from external
-        security threats.<br>
-        3. On owner app additional functions such as “MY PROFILE”, “MUTE NOTIFICATION”, “UN-MUTE NOTIFICATION” &
-        “LOGOUT” are provided on top-right of SITE LIST PAGE.<br>
-        4. List of features and tabs provided on Owner App are mentioned below in detail:-
-        </strong>
+                    <h1>OWNER APP :-</h1>
+
+                    <h2>
+                        1. Owner can opt for android or ios version of Owner app (link for owner app would be provided
+                        in SMS and E-MAIL
+                        received on registration).<br>
+                        2. On owner app “OTP” based login and “FORGOT PASSWORD” option is provided to safeguard it from
+                        external
+                        security threats.<br>
+                        3. On owner app additional functions such as “MY PROFILE”, “MUTE NOTIFICATION”, “UN-MUTE
+                        NOTIFICATION” &
+                        “LOGOUT” are provided on top-right of SITE LIST PAGE.<br>
+                        4. List of features and tabs provided on Owner App are mentioned below in detail:-
+                    </h2>
+
+                    <h3>a. SITE LIST :-</h3>
+
+                    <h4>
+                        1. On this page all registered sites of owner are available on a single page same as showcased
+                        on web-panel.<br>
+                        2. Every individual site is presented with “site image”, “site name”, “site address” and “view
+                        site button”.<br>
+                        3. Additonal to this every listed site is also presented with shorcuts for “REPORT MANAGEMENT
+                        TAB”, “SOS”,
+                        “VEHICLE APPROVAL TAB”, “VISITOR APPROVAL TAB” & “LIVE STRENGTH TAB”.This shortcuts are
+                        accompanied with pop-up
+                        counts which gets highlighted when any new action is received regarding to that particular
+                        tab.(vehicle &
+                        visitor approval tabs are subject to only, if assigned).<br>
+
+                    </h4>
+
 
                     <label class="next-btn" for="c1">Next</label>
                 </div>
             </div>
             <div class="flip" id="p2">
                 <div class="back">
-                    <img src="page_1_thumb_large.jpg" alt="">
                     <label class="back-btn" for="c2">Back</label>
                 </div>
                 <div class="front">
-                    <h2>strawberry</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit unde, natus facilis neque at, culpa ipsum veniam nisi fugit consequuntur aliquid, in ex. Dicta quos, pariatur repellendus voluptates tempore voluptatibus?</p>
+                    <h4>4. Manual “refresh” button and scroll down refresh us also included on site list page.</h4>
+                    <h3>b. MENU :-</h3>
+                    <h4>1. On menu page, top bar Is included with “site name”, “refresh button”, “live strength tab” and
+                        “notifictaion
+                        list”.<br>
+                        2. “Site image” is also diplayed on this page which adds to more personalized view.<br>
+                        3. Menu page includes tabs such as “Report management tab” and “Gate management logs” by-default
+                        to every Owner
+                        and Admin app. This tabs are explained below in detail</h4>
+                    <h5>REPORT MANAGEMENT TAB:- This tab is divided into two sections “Upload Report” and “View Report”.
+                    </h5>
+                    <h6> I. UPLOAD REPORT:- This function includes three fields “select name”, “choose file”, and
+                        “remark”. User can
+                        select single or multiple individuals from select name which includes all registered admin and
+                        employees on site
+                        with their respective departments in drop-down. In choose file field user can select any type of
+                        file format to
+                        be sent as report, example: - Image, pdf, jpg, word & camera.In remark filed (maximum 150
+                        characters) are
+                        allowed.
+                        <br>
+                        <br>
+                        II. VIEW REPORT:- This tab includes “Sent” and “Received” sections.
+                        All reports sent or received are arranged in this tab. It also includes filters such as “select
+                        name” and
+                        “calendar” to access previous data of reports sent and received. In view report user also can
+                        download all
+                        filtered data in pdf and excel format by just selecting desired format option provided.
+                    </h6>
+
+                    <h5>GATE MANAGEMENT LOGS:- This tab includes “vehicle” and “visitor” logs created by every day
+                        recorded moments from
+                        approval tabs. owner and admin will receive this tab by-default on their respective app and
+                        web-panel. owner and
+                        admin also have authority to edit existing vehicle log. example: - challans, invoice images……
+                        etc. (Only can add
+                        vacant fields where users name and time will be reflected on edit. usercannot edit existing
+                        occupied fields in
+                        log).</h5>
+
+                    <h6>a) VEHICLE LOG--- This vehicle log is created by all the vehicle movements recorded from “GATE
+                        APP” on daily
+                        basis. Once any vehicle is entered on site via gate app then that vehicle starts to reflect in
+                        vehicle log. This
+                        vehicle is displayed in the form of log in table where columns such as “unique id”, “vehicle
+                        no.”, “view” &
+                        “status” are provided. For every new vehicle a “unique id” is allotted automatically for better
+                        sorting purpose.
+                        In “view” column all the details of</h6><br>
+
                     <label class="next-btn" for="c2">Next</label>
                 </div>
             </div>
             <div class="flip" id="p3">
                 <div class="back">
-                    
+
                     <label class="back-btn" for="c3">Back</label>
                 </div>
                 <div class="front">
-                    <h2>pineapple</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit unde, natus facilis neque at, culpa ipsum veniam nisi fugit consequuntur aliquid, in ex. Dicta quos, pariatur repellendus voluptates tempore voluptatibus?</p>
+                    <h6> vehicle are arranged in drop-downs provided such as “Company Details”,
+                        “Vehicle Details”, “Document Details”, “Activity-Details”. All details related to that vehicle
+                        are provided for
+                        example: - “Activity Details” segment in a specific log list down “Entry Details” and “Exit
+                        Details” in brief
+                        recorded for that specific vehicle.
+                        In vehicle log “Calendar” and “search by vehicle, driver no. &otp” is also provided to access
+                        the desired
+                        filtered data with count</h6>
+
+                    <h6>
+                        b) VISITOR LOG --- ThisVisitor log is created by all the visitor movements recorded from “GATE
+                        APP” on daily
+                        basis. Once any visitor is entered on site via gate app then that visitor starts to reflect in
+                        visitor log. This
+                        visitor data is displayed in the form of log in table where columns such as “unique id”,
+                        “visitor name”, “view”
+                        & “status” are provided. For every new visitor a “unique id” is allotted automatically for
+                        better sorting
+                        purpose. In “view” column all the details of vehicle are arranged in drop-downs provided such as
+                        “Company
+                        Details”, “Vehicle no. & docs”, “Visitor details”, “Activity-Details”. All details related to
+                        that vehicle are
+                        provided for example: - “Activity Details” segment in a specific log list down “Entry Details”
+                        and “Exit
+                        Details” in brief recorded for that specific visitor.
+                        In vehicle log “Calendar” and “Search by visitor mobile no.”&“otp” is also provided to access
+                        the desired
+                        filtered data with total no. of count indicated.</h6>
+
+
+                        <h4>4. Other tabs such as “VEHCILE APPROVAL” and “VISITOR APPROVAL” can be displayed on menu page if they are
+                            assigned to Owner.</h4>
+                        
+                            <h5>VEHICLE APPROVAL TAB – This tab in further divided into four sections which are explained in detail below.</h5>
+                            <div class="row">
+                                <div class="col-6">
+                                          <img src="1.png" style="cursor:pointer; height: 200px;width: 100px;" 
+                                          onclick="onClick(this)" class="w3-hover-opacity">
+
+                                      
+                                      <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+                                        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                                        <div class="w3-modal-content w3-animate-zoom">
+                                          <img id="img01" style="width:100%">
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="col-6"></div>
+                            </div>
+
                     <label class="next-btn" for="c3">Next</label>
                 </div>
             </div>
         </div>
     </div>
 </body>
+<script>
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+    }
+    </script>
 </html>
